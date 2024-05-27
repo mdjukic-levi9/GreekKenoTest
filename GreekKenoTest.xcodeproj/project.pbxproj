@@ -14,6 +14,11 @@
 		200A036F2C04F626007298C6 /* GreekKenoTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200A036E2C04F626007298C6 /* GreekKenoTestTests.swift */; };
 		200A03792C04F626007298C6 /* GreekKenoTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200A03782C04F626007298C6 /* GreekKenoTestUITests.swift */; };
 		200A037B2C04F626007298C6 /* GreekKenoTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200A037A2C04F626007298C6 /* GreekKenoTestUITestsLaunchTests.swift */; };
+		200A03892C053178007298C6 /* LiveDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200A03882C053178007298C6 /* LiveDrawView.swift */; };
+		200A038B2C0532B0007298C6 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200A038A2C0532B0007298C6 /* WebView.swift */; };
+		200A038D2C0533B4007298C6 /* DrawResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200A038C2C0533B4007298C6 /* DrawResultsView.swift */; };
+		200A038F2C0535C3007298C6 /* TalonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200A038E2C0535C3007298C6 /* TalonView.swift */; };
+		200A03952C054191007298C6 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 200A03942C054191007298C6 /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,11 @@
 		200A03742C04F626007298C6 /* GreekKenoTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreekKenoTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		200A03782C04F626007298C6 /* GreekKenoTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekKenoTestUITests.swift; sourceTree = "<group>"; };
 		200A037A2C04F626007298C6 /* GreekKenoTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekKenoTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		200A03882C053178007298C6 /* LiveDrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveDrawView.swift; sourceTree = "<group>"; };
+		200A038A2C0532B0007298C6 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		200A038C2C0533B4007298C6 /* DrawResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawResultsView.swift; sourceTree = "<group>"; };
+		200A038E2C0535C3007298C6 /* TalonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalonView.swift; sourceTree = "<group>"; };
+		200A03942C054191007298C6 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,11 @@
 			children = (
 				200A035C2C04F622007298C6 /* GreekKenoTestApp.swift */,
 				200A035E2C04F622007298C6 /* ContentView.swift */,
+				200A03942C054191007298C6 /* Localizable.xcstrings */,
+				200A038E2C0535C3007298C6 /* TalonView.swift */,
+				200A03882C053178007298C6 /* LiveDrawView.swift */,
+				200A038C2C0533B4007298C6 /* DrawResultsView.swift */,
+				200A038A2C0532B0007298C6 /* WebView.swift */,
 				200A03602C04F624007298C6 /* Assets.xcassets */,
 				200A03622C04F624007298C6 /* GreekKenoTest.entitlements */,
 				200A03872C04F9E4007298C6 /* GreekKenoFeature */,
@@ -218,11 +233,11 @@
 			};
 			buildConfigurationList = 200A03542C04F622007298C6 /* Build configuration list for PBXProject "GreekKenoTest" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = "sr-Latn";
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
-				Base,
+				"sr-Latn",
+				sr,
 			);
 			mainGroup = 200A03502C04F622007298C6;
 			productRefGroup = 200A035A2C04F622007298C6 /* Products */;
@@ -243,6 +258,7 @@
 			files = (
 				200A03652C04F624007298C6 /* Preview Assets.xcassets in Resources */,
 				200A03612C04F624007298C6 /* Assets.xcassets in Resources */,
+				200A03952C054191007298C6 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,8 +283,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				200A038D2C0533B4007298C6 /* DrawResultsView.swift in Sources */,
 				200A035F2C04F622007298C6 /* ContentView.swift in Sources */,
+				200A038B2C0532B0007298C6 /* WebView.swift in Sources */,
 				200A035D2C04F622007298C6 /* GreekKenoTestApp.swift in Sources */,
+				200A03892C053178007298C6 /* LiveDrawView.swift in Sources */,
+				200A038F2C0535C3007298C6 /* TalonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,36 @@
+{
+  "sourceLanguage" : "sr-Latn",
+  "strings" : {
+    "Izvlačenje uživo" : {
+      "localizations" : {
+        "sr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Извлачење уживо"
+          }
+        }
+      }
+    },
+    "Rezultati izvlačenja" : {
+      "localizations" : {
+        "sr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Резултати извлачења"
+          }
+        }
+      }
+    },
+    "Talon" : {
+      "localizations" : {
+        "sr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Талон"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

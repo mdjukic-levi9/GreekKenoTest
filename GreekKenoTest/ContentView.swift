@@ -10,19 +10,19 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView{
-            Text("Talon")
+            TalonView()
                 .tabItem {
                     Label("Talon", systemImage: "square.grid.2x2")
                         .environment(\.symbolVariants, .none)
                 }
-            Text("Izvlačenje uživo")
+            LiveDrawView()
                 .tabItem {
                     Label("Izvlačenje uživo", systemImage: "play.circle")
                         .environment(\.symbolVariants, .none)
                 }
-            Text("Rezulati izvlačenja")
+            DrawResultsView()
                 .tabItem {
-                    Label("Rezulati izvlačenja", systemImage: "r.circle")
+                    Label("Rezultati izvlačenja", systemImage: "r.circle")
                         .environment(\.symbolVariants, .none)
                 }
         }
