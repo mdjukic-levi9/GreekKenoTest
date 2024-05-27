@@ -99,6 +99,7 @@
 				200A035E2C04F622007298C6 /* ContentView.swift */,
 				200A03602C04F624007298C6 /* Assets.xcassets */,
 				200A03622C04F624007298C6 /* GreekKenoTest.entitlements */,
+				200A03872C04F9E4007298C6 /* GreekKenoFeature */,
 				200A03632C04F624007298C6 /* Preview Content */,
 			);
 			path = GreekKenoTest;
@@ -127,6 +128,13 @@
 				200A037A2C04F626007298C6 /* GreekKenoTestUITestsLaunchTests.swift */,
 			);
 			path = GreekKenoTestUITests;
+			sourceTree = "<group>";
+		};
+		200A03872C04F9E4007298C6 /* GreekKenoFeature */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GreekKenoFeature;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
