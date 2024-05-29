@@ -19,6 +19,26 @@
 		200A038D2C0533B4007298C6 /* DrawResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200A038C2C0533B4007298C6 /* DrawResultsView.swift */; };
 		200A038F2C0535C3007298C6 /* TalonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200A038E2C0535C3007298C6 /* TalonView.swift */; };
 		200A03952C054191007298C6 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 200A03942C054191007298C6 /* Localizable.xcstrings */; };
+		200A03972C0549AA007298C6 /* NextGamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200A03962C0549AA007298C6 /* NextGamesView.swift */; };
+		200A03992C056238007298C6 /* NextGamesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200A03982C056238007298C6 /* NextGamesViewModel.swift */; };
+		200A039B2C056F73007298C6 /* NextGameRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200A039A2C056F73007298C6 /* NextGameRowView.swift */; };
+		200A039D2C05700E007298C6 /* NextGameRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200A039C2C05700E007298C6 /* NextGameRowViewModel.swift */; };
+		200A039F2C05FE19007298C6 /* CircleNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200A039E2C05FE19007298C6 /* CircleNumberView.swift */; };
+		200A03A12C0602E1007298C6 /* TalonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200A03A02C0602E1007298C6 /* TalonViewModel.swift */; };
+		20919F822C06B86D00B5044F /* GreekKenoGameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20919F812C06B86D00B5044F /* GreekKenoGameManager.swift */; };
+		20919F842C06BA9100B5044F /* Color+Talon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20919F832C06BA9100B5044F /* Color+Talon.swift */; };
+		20919F862C06BAB100B5044F /* NumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20919F852C06BAB100B5044F /* NumbersView.swift */; };
+		20919F882C06BACB00B5044F /* NumbersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20919F872C06BACB00B5044F /* NumbersViewModel.swift */; };
+		20919F8A2C06BB3C00B5044F /* TalonFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20919F892C06BB3C00B5044F /* TalonFooterView.swift */; };
+		20919F8C2C06C26900B5044F /* TalonFooterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20919F8B2C06C26900B5044F /* TalonFooterViewModel.swift */; };
+		20919F8E2C06C37200B5044F /* NextGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20919F8D2C06C37200B5044F /* NextGame.swift */; };
+		20919F902C06C3A500B5044F /* TimeInterval+Remaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20919F8F2C06C3A500B5044F /* TimeInterval+Remaining.swift */; };
+		20919F922C06C3D600B5044F /* QuotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20919F912C06C3D600B5044F /* QuotesView.swift */; };
+		20919F9F2C06D05D00B5044F /* QuotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20919F9E2C06D05D00B5044F /* QuotesViewModel.swift */; };
+		20919FA12C06DE9F00B5044F /* DrawResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20919FA02C06DE9F00B5044F /* DrawResultView.swift */; };
+		20919FA32C06E03C00B5044F /* DrawResultsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20919FA22C06E03C00B5044F /* DrawResultsViewModel.swift */; };
+		20919FA52C06E05000B5044F /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20919FA42C06E05000B5044F /* Result.swift */; };
+		20919FA72C06E06E00B5044F /* DrawResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20919FA62C06E06E00B5044F /* DrawResultViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +75,26 @@
 		200A038C2C0533B4007298C6 /* DrawResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawResultsView.swift; sourceTree = "<group>"; };
 		200A038E2C0535C3007298C6 /* TalonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalonView.swift; sourceTree = "<group>"; };
 		200A03942C054191007298C6 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		200A03962C0549AA007298C6 /* NextGamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextGamesView.swift; sourceTree = "<group>"; };
+		200A03982C056238007298C6 /* NextGamesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextGamesViewModel.swift; sourceTree = "<group>"; };
+		200A039A2C056F73007298C6 /* NextGameRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextGameRowView.swift; sourceTree = "<group>"; };
+		200A039C2C05700E007298C6 /* NextGameRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextGameRowViewModel.swift; sourceTree = "<group>"; };
+		200A039E2C05FE19007298C6 /* CircleNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleNumberView.swift; sourceTree = "<group>"; };
+		200A03A02C0602E1007298C6 /* TalonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalonViewModel.swift; sourceTree = "<group>"; };
+		20919F812C06B86D00B5044F /* GreekKenoGameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekKenoGameManager.swift; sourceTree = "<group>"; };
+		20919F832C06BA9100B5044F /* Color+Talon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Talon.swift"; sourceTree = "<group>"; };
+		20919F852C06BAB100B5044F /* NumbersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersView.swift; sourceTree = "<group>"; };
+		20919F872C06BACB00B5044F /* NumbersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersViewModel.swift; sourceTree = "<group>"; };
+		20919F892C06BB3C00B5044F /* TalonFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalonFooterView.swift; sourceTree = "<group>"; };
+		20919F8B2C06C26900B5044F /* TalonFooterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalonFooterViewModel.swift; sourceTree = "<group>"; };
+		20919F8D2C06C37200B5044F /* NextGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextGame.swift; sourceTree = "<group>"; };
+		20919F8F2C06C3A500B5044F /* TimeInterval+Remaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeInterval+Remaining.swift"; sourceTree = "<group>"; };
+		20919F912C06C3D600B5044F /* QuotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesView.swift; sourceTree = "<group>"; };
+		20919F9E2C06D05D00B5044F /* QuotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewModel.swift; sourceTree = "<group>"; };
+		20919FA02C06DE9F00B5044F /* DrawResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawResultView.swift; sourceTree = "<group>"; };
+		20919FA22C06E03C00B5044F /* DrawResultsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawResultsViewModel.swift; sourceTree = "<group>"; };
+		20919FA42C06E05000B5044F /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		20919FA62C06E06E00B5044F /* DrawResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawResultViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,12 +148,9 @@
 				200A035C2C04F622007298C6 /* GreekKenoTestApp.swift */,
 				200A035E2C04F622007298C6 /* ContentView.swift */,
 				200A03942C054191007298C6 /* Localizable.xcstrings */,
-				200A038E2C0535C3007298C6 /* TalonView.swift */,
-				200A03882C053178007298C6 /* LiveDrawView.swift */,
-				200A038C2C0533B4007298C6 /* DrawResultsView.swift */,
-				200A038A2C0532B0007298C6 /* WebView.swift */,
 				200A03602C04F624007298C6 /* Assets.xcassets */,
 				200A03622C04F624007298C6 /* GreekKenoTest.entitlements */,
+				20919F982C06CB8100B5044F /* Core */,
 				200A03872C04F9E4007298C6 /* GreekKenoFeature */,
 				200A03632C04F624007298C6 /* Preview Content */,
 			);
@@ -148,8 +185,111 @@
 		200A03872C04F9E4007298C6 /* GreekKenoFeature */ = {
 			isa = PBXGroup;
 			children = (
+				20919F932C06CAB900B5044F /* Data */,
+				20919F962C06CAD600B5044F /* Domain */,
+				20919F942C06CABF00B5044F /* Presentation */,
 			);
 			path = GreekKenoFeature;
+			sourceTree = "<group>";
+		};
+		20919F932C06CAB900B5044F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		20919F942C06CABF00B5044F /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				20919F9A2C06CCF400B5044F /* NextGamesFeature */,
+				20919F992C06CBF800B5044F /* LiveDrawFeature */,
+				20919F9C2C06CD6100B5044F /* DrawResultsFeature */,
+				20919F9D2C06CDC500B5044F /* Components */,
+				20919F832C06BA9100B5044F /* Color+Talon.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		20919F962C06CAD600B5044F /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				20919F972C06CB3D00B5044F /* Entities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		20919F972C06CB3D00B5044F /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				20919F812C06B86D00B5044F /* GreekKenoGameManager.swift */,
+				20919F8D2C06C37200B5044F /* NextGame.swift */,
+				20919FA42C06E05000B5044F /* Result.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		20919F982C06CB8100B5044F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				20919F8F2C06C3A500B5044F /* TimeInterval+Remaining.swift */,
+				200A038A2C0532B0007298C6 /* WebView.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		20919F992C06CBF800B5044F /* LiveDrawFeature */ = {
+			isa = PBXGroup;
+			children = (
+				200A03882C053178007298C6 /* LiveDrawView.swift */,
+			);
+			path = LiveDrawFeature;
+			sourceTree = "<group>";
+		};
+		20919F9A2C06CCF400B5044F /* NextGamesFeature */ = {
+			isa = PBXGroup;
+			children = (
+				200A03962C0549AA007298C6 /* NextGamesView.swift */,
+				200A03982C056238007298C6 /* NextGamesViewModel.swift */,
+				200A039A2C056F73007298C6 /* NextGameRowView.swift */,
+				200A039C2C05700E007298C6 /* NextGameRowViewModel.swift */,
+				20919F9B2C06CD1B00B5044F /* Talon */,
+			);
+			path = NextGamesFeature;
+			sourceTree = "<group>";
+		};
+		20919F9B2C06CD1B00B5044F /* Talon */ = {
+			isa = PBXGroup;
+			children = (
+				200A038E2C0535C3007298C6 /* TalonView.swift */,
+				200A03A02C0602E1007298C6 /* TalonViewModel.swift */,
+				20919F912C06C3D600B5044F /* QuotesView.swift */,
+				20919F9E2C06D05D00B5044F /* QuotesViewModel.swift */,
+				20919F892C06BB3C00B5044F /* TalonFooterView.swift */,
+				20919F8B2C06C26900B5044F /* TalonFooterViewModel.swift */,
+			);
+			path = Talon;
+			sourceTree = "<group>";
+		};
+		20919F9C2C06CD6100B5044F /* DrawResultsFeature */ = {
+			isa = PBXGroup;
+			children = (
+				200A038C2C0533B4007298C6 /* DrawResultsView.swift */,
+				20919FA22C06E03C00B5044F /* DrawResultsViewModel.swift */,
+				20919FA02C06DE9F00B5044F /* DrawResultView.swift */,
+				20919FA62C06E06E00B5044F /* DrawResultViewModel.swift */,
+			);
+			path = DrawResultsFeature;
+			sourceTree = "<group>";
+		};
+		20919F9D2C06CDC500B5044F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				20919F852C06BAB100B5044F /* NumbersView.swift */,
+				20919F872C06BACB00B5044F /* NumbersViewModel.swift */,
+				200A039E2C05FE19007298C6 /* CircleNumberView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,10 +424,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				200A038D2C0533B4007298C6 /* DrawResultsView.swift in Sources */,
+				20919FA32C06E03C00B5044F /* DrawResultsViewModel.swift in Sources */,
+				20919F822C06B86D00B5044F /* GreekKenoGameManager.swift in Sources */,
 				200A035F2C04F622007298C6 /* ContentView.swift in Sources */,
+				20919F9F2C06D05D00B5044F /* QuotesViewModel.swift in Sources */,
+				20919F862C06BAB100B5044F /* NumbersView.swift in Sources */,
+				20919FA52C06E05000B5044F /* Result.swift in Sources */,
 				200A038B2C0532B0007298C6 /* WebView.swift in Sources */,
+				20919F8E2C06C37200B5044F /* NextGame.swift in Sources */,
+				20919F922C06C3D600B5044F /* QuotesView.swift in Sources */,
+				200A03992C056238007298C6 /* NextGamesViewModel.swift in Sources */,
+				20919F8C2C06C26900B5044F /* TalonFooterViewModel.swift in Sources */,
 				200A035D2C04F622007298C6 /* GreekKenoTestApp.swift in Sources */,
+				20919F8A2C06BB3C00B5044F /* TalonFooterView.swift in Sources */,
+				20919F902C06C3A500B5044F /* TimeInterval+Remaining.swift in Sources */,
+				200A03A12C0602E1007298C6 /* TalonViewModel.swift in Sources */,
 				200A03892C053178007298C6 /* LiveDrawView.swift in Sources */,
+				20919F842C06BA9100B5044F /* Color+Talon.swift in Sources */,
+				20919F882C06BACB00B5044F /* NumbersViewModel.swift in Sources */,
+				20919FA72C06E06E00B5044F /* DrawResultViewModel.swift in Sources */,
+				200A03972C0549AA007298C6 /* NextGamesView.swift in Sources */,
+				200A039B2C056F73007298C6 /* NextGameRowView.swift in Sources */,
+				200A039F2C05FE19007298C6 /* CircleNumberView.swift in Sources */,
+				20919FA12C06DE9F00B5044F /* DrawResultView.swift in Sources */,
+				200A039D2C05700E007298C6 /* NextGameRowViewModel.swift in Sources */,
 				200A038F2C0535C3007298C6 /* TalonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

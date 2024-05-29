@@ -27,7 +27,11 @@ struct WebView: UIViewRepresentable {
     }
 
     private func loadUrl() {
-        let request = URLRequest(url: url)
-        webview.load(request)
+        DispatchQueue.global().async {
+            let request = URLRequest(url: url)
+            DispatchQueue.main.async {
+                webview.load(request)
+            }
+        }
     }
 }

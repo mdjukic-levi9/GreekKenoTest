@@ -1,12 +1,102 @@
 {
   "sourceLanguage" : "sr-Latn",
   "strings" : {
+    "" : {
+      "localizations" : {
+        "sr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        }
+      }
+    },
+    "%.2f" : {
+      "localizations" : {
+        "sr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%.2f"
+          }
+        }
+      }
+    },
+    "%lld" : {
+      "localizations" : {
+        "sr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        }
+      }
+    },
+    "B.K." : {
+      "localizations" : {
+        "sr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Б.К."
+          }
+        }
+      }
+    },
+    "Brojeva:" : {
+      "localizations" : {
+        "sr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бројева:"
+          }
+        }
+      }
+    },
+    "Dozvoljeni broj loptica je %lld" : {
+      "localizations" : {
+        "sr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дозвољени број лоптица је %lld"
+          }
+        }
+      }
+    },
+    "GRČKI KINO (20/80)" : {
+      "localizations" : {
+        "sr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ГРЧКИ КИНО (20/80)"
+          }
+        }
+      }
+    },
     "Izvlačenje uživo" : {
       "localizations" : {
         "sr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Извлачење уживо"
+          }
+        }
+      }
+    },
+    "Kvota" : {
+      "localizations" : {
+        "sr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Квота"
+          }
+        }
+      }
+    },
+    "Preostalo za uplatu" : {
+      "localizations" : {
+        "sr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преостало за уплату"
           }
         }
       }
@@ -21,12 +111,74 @@
         }
       }
     },
+    "Slučajni odabir" : {
+      "localizations" : {
+        "sr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Случајни одабир"
+          }
+        }
+      }
+    },
     "Talon" : {
       "localizations" : {
         "sr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Талон"
+          }
+        }
+      }
+    },
+    "U redu" : {
+      "localizations" : {
+        "sr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "У реду"
+          }
+        }
+      }
+    },
+    "Vreme izvlačenja" : {
+      "localizations" : {
+        "sr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Време извлачења"
+          }
+        }
+      }
+    },
+    "Vreme izvlačenja %@ | Kolo %@" : {
+      "localizations" : {
+        "sr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Време извлачења %1$@ | Коло %2$@"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Vreme izvlačenja %1$@ | Kolo %2$@"
+          }
+        }
+      }
+    },
+    "Vreme izvlačenja: %@ | Kolo: %@" : {
+      "localizations" : {
+        "sr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Време извлачења: %1$@ | Коло: %2$@"
+          }
+        },
+        "sr-Latn" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Vreme izvlačenja: %1$@ | Kolo: %2$@"
           }
         }
       }
