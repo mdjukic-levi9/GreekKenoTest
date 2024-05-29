@@ -7,11 +7,7 @@
 
 import Foundation
 
-final class NextGame: Identifiable, ObservableObject {
-    let gameId: Int
+struct NextGame {
+    let drawId: Int
     let date: Date
-    init(gameId: Int, date: Date) {
-        self.gameId = gameId
-        self.date = date
-    }
 }

@@ -22,7 +22,7 @@ final class QuotesViewModel: ObservableObject {
                   8 : 125000
     ]
     init(nextGame: NextGame) {
-        self.gameId = "\(nextGame.gameId)"
+        self.gameId = "\(nextGame.drawId)"
         self.drawTime = timeformatter.string(from: nextGame.date)
     }
 

@@ -82,5 +82,5 @@ struct TalonView: View {
 }
 
 #Preview {
-    TalonView(nextGame: NextGame(gameId: 123, date: Date(timeIntervalSinceNow: 45)))
+    TalonView(nextGame: NextGame(drawId: 123, date: Date(timeIntervalSinceNow: 45)))
 }

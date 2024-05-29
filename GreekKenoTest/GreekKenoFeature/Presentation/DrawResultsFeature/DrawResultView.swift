@@ -19,6 +19,7 @@ struct DrawResultView: View {
         VStack {
             Text("Vreme izvlačenja \(viewmodel.drawDateTime) | Kolo \(viewmodel.gameId)")
                 .padding()
+                .frame(maxWidth: .infinity, alignment: .leading)
                 .background(Color.backgroundActive)
                 .foregroundStyle(Color.foreground)
             NumbersView(numbers: viewmodel.numbers)
@@ -28,5 +29,5 @@ struct DrawResultView: View {
 }
 
 #Preview {
-    DrawResultView(result: Result(gameId: 123, numbers: [1, 11, 34, 57], drawDateTime: Date()))
+    DrawResultView(result: Result(drawId: 123, numbers: [1, 11, 34, 57], drawDateTime: Date()))
 }

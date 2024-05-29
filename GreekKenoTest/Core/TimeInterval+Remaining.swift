@@ -21,7 +21,7 @@ extension TimeInterval{
             return String(format: "%0.2d:%0.2d",minutes,seconds)
         }
 
-        return String(format: "%0.2d:%0.2d:%0.2d",hours,minutes,seconds)
+        return String(format: "%d:%0.2d:%0.2d",hours,minutes,seconds)
 
     }
 }

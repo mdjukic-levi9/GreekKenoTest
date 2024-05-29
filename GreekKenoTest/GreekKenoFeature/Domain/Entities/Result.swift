@@ -8,7 +8,7 @@
 import Foundation
 
 struct Result {
-    let gameId: Int
+    let drawId: Int
     let numbers: [Int]
     let drawDateTime: Date
 }

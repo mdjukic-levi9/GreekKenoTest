@@ -10,8 +10,18 @@ import Foundation
 final class NextGamesViewModel: ObservableObject {
     @Published var nextGames = [NextGame]()
 
+    private let repository: GreekKenoGameRepository
+
+    init(repository: GreekKenoGameRepository = GreekKenoGameRepositoryImpl()) {
+        self.repository = repository
+    }
+
     func loadData() {
-        #warning("Fetch real data")
-        nextGames = Array(repeating: NextGame(gameId: 1, date: Date().addingTimeInterval(50)), count: 20)
+        Task {
+            let nextGames = await repository.loadUpcoming()
+            DispatchQueue.main.async {
+                self.nextGames = nextGames
+            }
+        }
     }
 }

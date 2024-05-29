@@ -15,7 +15,7 @@ final class DrawResultViewModel: ObservableObject {
 
 
     init(result: Result) {
-        gameId = "\(result.gameId)"
+        gameId = "\(result.drawId)"
         numbers = result.numbers
         drawDateTime = formatDateTime(date: result.drawDateTime)
     }
@@ -26,7 +26,7 @@ final class DrawResultViewModel: ObservableObject {
 
     private var dateFormatter: DateFormatter {
         let timeFormatter = DateFormatter()
-        timeFormatter.dateFormat = "dd.MM.yyyy. HH:mm"
+        timeFormatter.dateFormat = "dd.MM. HH:mm"
         return timeFormatter
     }
 }

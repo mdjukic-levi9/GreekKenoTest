@@ -15,7 +15,7 @@ struct NextGamesView: View {
         NavigationView {
             List {
                 Section {
-                    ForEach(viewmodel.nextGames) { nextGame in
+                    ForEach(viewmodel.nextGames, id: \.drawId) { nextGame in
                         NextGameRowView(nextGame: nextGame)
                             .background(
                                 NavigationLink("", destination: TalonView(nextGame: nextGame))

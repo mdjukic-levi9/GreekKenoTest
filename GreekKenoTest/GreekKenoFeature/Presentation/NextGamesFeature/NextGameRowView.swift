@@ -30,5 +30,5 @@ struct NextGameRowView: View {
 }
 
 #Preview(traits: .sizeThatFitsLayout) {
-    NextGameRowView(nextGame: NextGame(gameId: 123, date: Date(timeIntervalSinceNow: 45)))
+    NextGameRowView(nextGame: NextGame(drawId: 123, date: Date(timeIntervalSinceNow: 45)))
 }

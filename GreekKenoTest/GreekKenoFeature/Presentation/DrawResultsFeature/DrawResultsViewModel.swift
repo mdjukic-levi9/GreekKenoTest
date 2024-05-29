@@ -11,9 +11,19 @@ final class DrawResultsViewModel: ObservableObject {
 
     @Published var results: [Result] = []
 
+    private var repository: GreekKenoGameRepository
+
+    init(repository: GreekKenoGameRepository = GreekKenoGameRepositoryImpl()) {
+        self.repository = repository
+    }
+
     func loadData() {
-        #warning("Fetch data")
-//        results =
+        Task {
+            let results = await repository.loadResults(for:Date())
+            DispatchQueue.main.async {
+                self.results = results
+            }
+        }
     }
 
 }

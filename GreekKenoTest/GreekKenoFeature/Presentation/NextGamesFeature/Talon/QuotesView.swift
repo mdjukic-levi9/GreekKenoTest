@@ -56,5 +56,5 @@ struct QuotesView: View {
 }
 
 #Preview(traits:.sizeThatFitsLayout) {
-    QuotesView(nextGame: NextGame(gameId: 1, date: Date(timeIntervalSinceNow: 65)))
+    QuotesView(nextGame: NextGame(drawId: 1, date: Date(timeIntervalSinceNow: 65)))
 }
